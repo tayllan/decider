@@ -16,13 +16,13 @@ window.onload = function() {
 		'Better not to do it'
 	];
 	var how_urls = [
-		'temp.jpg'
+		'img/how/how1.png'
 	];
 	var positive_urls = [
-		'temp.jpg'
+		'img/how/how1.png'
 	];
 	var negative_urls = [
-		'temp.jpg'
+		'img/how/how1.png'
 	];
 	var nav_decide = document.getElementById('nav-decide');
 	var nav_how = document.getElementById('nav-how');
