@@ -19,10 +19,14 @@ window.onload = function() {
 		'img/how/how1.png'
 	];
 	var positive_urls = [
-		'img/how/how1.png'
+		'img/yes/yes1.jpg',
+		'img/yes/yes2.jpg',
+		'img/yes/yes3.jpg'
 	];
 	var negative_urls = [
-		'img/how/how1.png'
+		'img/no/no1.jpg',
+		'img/no/no2.jpg',
+		'img/no/no3.jpg'
 	];
 	var nav_decide = document.getElementById('nav-decide');
 	var nav_how = document.getElementById('nav-how');
@@ -70,6 +74,9 @@ window.onload = function() {
 
 	nav_how.addEventListener('click', function(event) {
 		clear_main_div();
+		var p = document.createElement('p');
+		p.innerHTML = 'How the Decider makes its decision:';
+		main.appendChild(p);
 		main.appendChild(get_how_comic());
 	});
 
