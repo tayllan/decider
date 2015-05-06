@@ -45,9 +45,11 @@ window.onload = function() {
 	};
 	var get_decide_button = function() {
 		var button = document.createElement('button');
+
 		button.id = 'decide';
 		button.innerHTML = get_random_element(messages);
 		button.className = 'button-xlarge pure-button';
+
 		return button;
 	};
 	var get_decide_div = function() {
@@ -68,7 +70,9 @@ window.onload = function() {
 	};
 	var get_how_comic = function() {
 		var img = document.createElement('img');
+
 		img.src = get_random_element(how_urls);
+
 		return img;
 	};
 	var clear_main_div = function() {
@@ -84,7 +88,9 @@ window.onload = function() {
 
 	nav_how.addEventListener('click', function(event) {
 		clear_main_div();
+
 		var p = document.createElement('p');
+
 		p.id = 'how-message';
 		p.innerHTML = 'How the Decider makes its decision:';
 		main.appendChild(p);
