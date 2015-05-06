@@ -2,18 +2,22 @@ window.onload = function() {
 	var messages = [
 		'Decide for me',
 		'I\'m Tired, Decide for me',
-		'I can\'t do it, Decide for me'
+		'I can\'t do it, Decide for me',
+		'Decide for me Universe',
+		'DECIDE'
 	];
 	var positive_messages = [
 		'Yes, totally do it!',
 		'Yes, do it!',
-		'Yes - said the Universe',
-		'Yes'
+		'Yes - said the Universe.',
+		'Yes.',
+		'Why aren\'t you doing it yet? Yes.'
 	];
 	var negative_messages = [
 		'No, don\'t do it!',
-		'No - said the Universe',
-		'Better not to do it'
+		'No - said the Universe.',
+		'Better not to do it.',
+		'Hell No.',
 	];
 	var how_urls = [
 		'img/how/how1.png'
@@ -21,12 +25,17 @@ window.onload = function() {
 	var positive_urls = [
 		'img/yes/yes1.jpg',
 		'img/yes/yes2.jpg',
-		'img/yes/yes3.jpg'
+		'img/yes/yes3.jpg',
+		'img/yes/yes4.jpg',
+		'img/yes/yes5.jpg',
+		'img/yes/yes6.jpg',
+		'img/yes/yes7.jpg'
 	];
 	var negative_urls = [
 		'img/no/no1.jpg',
 		'img/no/no2.jpg',
-		'img/no/no3.jpg'
+		'img/no/no3.jpg',
+		'img/no/no4.jpg'
 	];
 	var nav_decide = document.getElementById('nav-decide');
 	var nav_how = document.getElementById('nav-how');
