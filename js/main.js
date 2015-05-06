@@ -38,6 +38,7 @@ window.onload = function() {
 		var button = document.createElement('button');
 		button.id = 'decide';
 		button.innerHTML = get_random_element(messages);
+		button.className = 'button-xlarge pure-button';
 		return button;
 	};
 	var get_decide_div = function() {
@@ -75,6 +76,7 @@ window.onload = function() {
 	nav_how.addEventListener('click', function(event) {
 		clear_main_div();
 		var p = document.createElement('p');
+		p.id = 'how-message';
 		p.innerHTML = 'How the Decider makes its decision:';
 		main.appendChild(p);
 		main.appendChild(get_how_comic());

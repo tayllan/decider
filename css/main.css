@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+}
+
+p {
+	font-weight: bold;
+	color: red;
+}
+
+#how-message {
+	color: black;
+}
+
+.button-xlarge {
+	font-size: 150%;
+}
