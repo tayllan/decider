@@ -1,12 +1,10 @@
-# decider
-Let the Universe choose for you!
+# Decider
+## Let the Universe choose for you!
 
-* TODO:
-	1. [ ] Improve decide-button messages;
-	2. [ ] Improve positive messages;
-	3. [ ] Improve negative messages;
-	4. [ ] Create how-rage-comics;
-	5. [ ] Create positive rage-comics;
-	6. [ ] Create negative rage-comics;
-	7. [ ] Check JS;
-	8. [ ] Create CSS;
+The perfect place to go when you're feeling tired but still need to make an ASAP decision.
+
+How to use it:
+1. Open the [site](tayllan.github.io/decider/);
+2. Click on the decision button;
+3. Receive an answer from the Universe;
+4. Proceed to obey the Universe (this step is VERY IMPORTANT. Failure to comply will result in unspeakable consequences).
