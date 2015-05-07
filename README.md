@@ -1,5 +1,5 @@
 # Decider
-## Let the Universe choose for you!
+## Let the Universe decide for you!
 
 The perfect place to go when you're feeling tired but still need to make an ASAP decision.
 

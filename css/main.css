@@ -9,11 +9,14 @@ img {
 
 p {
 	font-weight: bold;
-	color: red;
 }
 
-#how-message {
-	color: black;
+.positive-message {
+	color: green;
+}
+
+.negative-message {
+	color: red;
 }
 
 .button-xlarge {

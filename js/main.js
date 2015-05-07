@@ -58,10 +58,17 @@ window.onload = function() {
 		var img = document.createElement('img');
 		var answer = Math.random() < 0.5;
 
-		p.innerHTML = get_random_element((answer) ? positive_messages : negative_messages);
+		if (answer) {
+			p.innerHTML = get_random_element(positive_messages);
+			p.className = 'positive-message';
+			img.src = get_random_element(positive_urls);
+		}
+		else {
+			p.innerHTML = get_random_element(negative_messages);
+			p.className = 'negative-message';
+			img.src = get_random_element(negative_urls);
+		}
 
-		img.src = get_random_element((answer) ? positive_urls : negative_urls);
-		
 		div.id = 'message';
 		div.appendChild(p);
 		div.appendChild(img);
@@ -91,7 +98,6 @@ window.onload = function() {
 
 		var p = document.createElement('p');
 
-		p.id = 'how-message';
 		p.innerHTML = 'How the Decider makes its decision:';
 		main.appendChild(p);
 		main.appendChild(get_how_comic());
